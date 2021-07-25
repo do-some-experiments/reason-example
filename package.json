@@ -6,7 +6,6 @@
     "start": "bsb -make-world -w -ws _ ",
     "clean": "bsb -clean-world",
     "server": "moduleserve ./ --port 8000",
-    "deploy": "gh-pages -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -23,7 +22,6 @@
   },
   "devDependencies": {
     "bs-platform": "^7.3.2",
-    "gh-pages": "^3.2.3",
     "moduleserve": "^0.9.0"
   }
 }
